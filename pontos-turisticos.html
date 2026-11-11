@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pontos turísticos | Recife em Cores</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topo">
+<a class="marca" href="index.html"><img src="img/sombrinha.svg" alt="" width="36" height="36">Recife em Cores</a>
+<button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+<nav><ul id="menu"><li><a href="index.html">Início</a></li><li><a href="pontos-turisticos.html" aria-current="page">Pontos turísticos</a></li><li><a href="gastronomia.html">Gastronomia</a></li><li><a href="cultura.html">Cultura</a></li><li><a href="contato.html">Contato</a></li></ul></nav>
+</header>
+<main>
+
+<section class="bloco"><h1>Pontos turísticos</h1>
+<p class="lead">Use os botões para filtrar por tipo de passeio.</p>
+<div class="filtros" role="group" aria-label="Filtrar passeios">
+<button data-f="todos" class="ativo">Todos</button><button data-f="historia">História</button><button data-f="natureza">Natureza</button><button data-f="arte">Arte</button></div>
+<div class="grade" id="lista">
+<div data-t="historia"><article class="card"><img src="img/pontes.svg" alt="Ponte sobre o Rio Capibaribe" width="400" height="260"><div><h3>Rua do Bom Jesus</h3><p>Uma das ruas mais antigas das Américas, no Recife Antigo, onde fica a primeira sinagoga do continente.</p></div></article></div>
+<div data-t="historia"><article class="card"><img src="img/marco.svg" alt="Marco Zero com rosa dos ventos" width="400" height="260"><div><h3>Marco Zero</h3><p>Praça do Recife Antigo com a rosa dos ventos no piso e vista para o porto. Palco de shows no Carnaval.</p></div></article></div>
+<div data-t="natureza"><article class="card"><img src="img/praia.svg" alt="Praia com coqueiros" width="400" height="260"><div><h3>Praia de Boa Viagem</h3><p>Quatro quilômetros de orla com piscinas naturais formadas pelos recifes na maré baixa.</p></div></article></div>
+<div data-t="arte"><article class="card"><img src="img/museu.svg" alt="Castelo com jardins" width="400" height="260"><div><h3>Instituto Ricardo Brennand</h3><p>Castelo com coleção de armas medievais, pinturas e esculturas rodeado por jardins.</p></div></article></div>
+</div></section>
+</main>
+<footer class="rodape">
+<p>Recife em Cores — projeto acadêmico de desenvolvimento web.</p>
+<p><a href="https://github.com/SEU-USUARIO/recife-em-cores">Código-fonte no GitHub</a></p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
